@@ -9,19 +9,14 @@ This React Native application serves as a simple product management system. It p
 1. **Clone the Repository:**
 
     ```bash
-    git clone <repository-url>
+    git clone <https://github.com/ravindrapv/Crud-frontend.git>
     ```
 
-2. **Navigate to the Project Folder:**
+
+2. **Install Dependencies:**
 
     ```bash
-    cd <project-folder>
-    ```
-
-3. **Install Dependencies:**
-
-    ```bash
-    npm install
+    npm install --force
     ```
 
 ## Usage
@@ -29,38 +24,37 @@ This React Native application serves as a simple product management system. It p
 - **Run the Application:**
 
     ```bash
-    npx react-native run-android
+    npx start
     ```
 
     or
 
     ```bash
-    npx react-native run-ios
+    expo start
     ```
 
 ## Screenshots
 
 Add some screenshots of your application here to visually represent how it looks.
 
-### Login Screen
+### Login Screen and register
 
-![Login Screen](./screenshots/login-screen.png)
+![Login Screen](./assets/register.jpeg)
+
+![Login Screen](./assets/login.jpeg)
 
 ### Products List Screen
 
-![Products List Screen](./screenshots/products-list-screen.png)
+![Products List Screen](./assets/allproducts.jpeg)
 
 ### Add Product Screen
 
-![Add Product Screen](./screenshots/add-product-screen.png)
+![Add Product Screen](./assets/createproduct.jpeg)
 
 ### Product Detail Screen
 
-![Product Detail Screen](./screenshots/product-detail-screen.png)
+![Product Detail Screen](./assets/detaileproduct.jpeg)
 
-### Update Product Screen
-
-![Update Product Screen](./screenshots/update-product-screen.png)
 
 ## Screens
 
@@ -81,8 +75,5 @@ Add some screenshots of your application here to visually represent how it looks
 
 - **src/screens/Auth:** Contains login and register screens.
 - **src/screens/Products:** Includes screens for adding, listing, viewing, and updating products.
-- **src/api:** Manages API communication.
+**src/**API**:** Manages API communication.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
